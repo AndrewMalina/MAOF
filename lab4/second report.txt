@@ -1,0 +1,21 @@
+
+Name: Create tech. task
+Object Type: Activity
+Output Name: Untitled Output 0
+
+Output Name: Untitled Output 1
+
+Name: Analyze
+Object Type: Activity
+Output Name: Untitled Output 2
+
+Name: Client
+Object Type: Activity
+
+Name: creating module struct
+Object Type: Activity
+Output Name: Untitled Output 5
+
+Name: creating db model
+Object Type: Activity
+Output Name: Untitled Output 6

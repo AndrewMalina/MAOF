@@ -1,0 +1,20 @@
+
+Number: 2
+Name: Create tech. task
+Activity Cost    ($ U.S.): 0.00
+
+Number: 5
+Name: Analyze
+Activity Cost    ($ U.S.): 0.00
+
+Number: 4
+Name: Client
+Activity Cost    ($ U.S.): 0.00
+
+Number: 7
+Name: creating module struct
+Activity Cost    ($ U.S.): 0.00
+
+Number: 8
+Name: creating db model
+Activity Cost    ($ U.S.): 0.00
