@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>models.City</OriginalElement>
+  <nodes>
+    <node x="123.49358974358972" y="33.0">javax.persistence.Entity</node>
+    <node x="518.8717948717949" y="1513.0">models.Ticket</node>
+    <node x="283.9935897435898" y="1039.0">models.Seat</node>
+    <node x="617.625" y="0.0">javax.persistence.Table</node>
+    <node x="267.875" y="563.0">models.Train</node>
+    <node x="362.9967948717948" y="197.0">models.Stop</node>
+    <node x="132.87179487179486" y="1645.0">models.Reservation</node>
+    <node x="116.99679487179486" y="274.0">models.City</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="models.Train" target="models.Seat">
+      <point x="116.5" y="213.0" />
+      <point x="617.375" y="1014.0" />
+      <point x="562.7435897435898" y="1014.0" />
+      <point x="55.75" y="-202.0" />
+    </edge>
+    <edge source="models.Seat" target="javax.persistence.Table">
+      <point x="167.25" y="-202.0" />
+      <point x="674.2435897435898" y="1014.0" />
+      <point x="809.3717948717949" y="1014.0" />
+      <point x="809.3717948717949" y="167.0" />
+      <point x="738.375" y="167.0" />
+      <point x="17.25" y="58.5" />
+    </edge>
+    <edge source="models.Stop" target="javax.persistence.Table">
+      <point x="91.49999999999994" y="-158.0" />
+      <point x="637.4967948717948" y="177.0" />
+      <point x="669.375" y="177.0" />
+      <point x="-51.75" y="58.5" />
+    </edge>
+    <edge source="models.City" target="javax.persistence.Table">
+      <point x="56.5" y="-81.0" />
+      <point x="286.49679487179486" y="167.0" />
+      <point x="634.875" y="167.0" />
+      <point x="-86.25" y="58.5" />
+    </edge>
+    <edge source="models.Train" target="javax.persistence.Table">
+      <point x="174.74999999999994" y="-213.0" />
+      <point x="675.625" y="538.0" />
+      <point x="795.4967948717949" y="538.0" />
+      <point x="795.4967948717949" y="177.0" />
+      <point x="703.875" y="177.0" />
+      <point x="-17.25" y="58.5" />
+    </edge>
+    <edge source="models.Ticket" target="javax.persistence.Table">
+      <point x="202.00000000000006" y="-290.0" />
+      <point x="1023.8717948717949" y="1493.0" />
+      <point x="899.125" y="1493.0" />
+      <point x="899.125" y="147.0" />
+      <point x="807.375" y="147.0" />
+      <point x="86.25" y="58.5" />
+    </edge>
+    <edge source="models.Reservation" target="models.Seat">
+      <point x="-45.75" y="-158.0" />
+      <point x="270.12179487179486" y="1473.0" />
+      <point x="358.3269230769231" y="1473.0" />
+      <point x="-148.66666666666666" y="202.0" />
+    </edge>
+    <edge source="models.Train" target="models.Stop">
+      <point x="-58.25000000000006" y="-213.0" />
+      <point x="442.625" y="538.0" />
+      <point x="454.4967948717948" y="538.0" />
+      <point x="-91.5" y="158.0" />
+    </edge>
+    <edge source="models.Ticket" target="javax.persistence.Entity">
+      <point x="-202.0" y="-290.0" />
+      <point x="619.8717948717949" y="1463.0" />
+      <point x="84.49679487179486" y="1463.0" />
+      <point x="84.49679487179486" y="147.0" />
+      <point x="160.24358974358972" y="147.0" />
+      <point x="-36.75" y="25.5" />
+    </edge>
+    <edge source="models.City" target="javax.persistence.Entity">
+      <point x="-56.5" y="-81.0" />
+      <point x="173.49679487179486" y="177.0" />
+      <point x="233.74358974358972" y="177.0" />
+      <point x="36.75" y="25.5" />
+    </edge>
+    <edge source="models.Seat" target="models.Reservation">
+      <point x="0.0" y="202.0" />
+      <point x="506.9935897435898" y="1483.0" />
+      <point x="361.62179487179486" y="1483.0" />
+      <point x="45.75" y="-158.0" />
+    </edge>
+    <edge source="models.Seat" target="javax.persistence.Entity">
+      <point x="-167.25" y="-202.0" />
+      <point x="339.7435897435898" y="1014.0" />
+      <point x="95.49679487179486" y="1014.0" />
+      <point x="95.49679487179486" y="157.0" />
+      <point x="184.74358974358972" y="157.0" />
+      <point x="-12.25" y="25.5" />
+    </edge>
+    <edge source="models.Stop" target="models.Train">
+      <point x="91.5" y="158.0" />
+      <point x="637.4967948717948" y="538.0" />
+      <point x="559.125" y="538.0" />
+      <point x="58.24999999999994" y="-213.0" />
+    </edge>
+    <edge source="models.Reservation" target="javax.persistence.Entity">
+      <point x="-137.25" y="-158.0" />
+      <point x="178.62179487179486" y="1493.0" />
+      <point x="0.0" y="1493.0" />
+      <point x="0.0" y="137.0" />
+      <point x="135.74358974358972" y="137.0" />
+      <point x="-61.25" y="25.5" />
+    </edge>
+    <edge source="models.Ticket" target="models.Seat">
+      <point x="0.0" y="-290.0" />
+      <point x="821.8717948717949" y="1483.0" />
+      <point x="655.6602564102564" y="1483.0" />
+      <point x="148.66666666666663" y="202.0" />
+    </edge>
+    <edge source="models.Reservation" target="javax.persistence.Table">
+      <point x="137.25" y="-158.0" />
+      <point x="453.12179487179486" y="1493.0" />
+      <point x="820.3717948717949" y="1493.0" />
+      <point x="820.3717948717949" y="157.0" />
+      <point x="772.875" y="157.0" />
+      <point x="51.75" y="58.5" />
+    </edge>
+    <edge source="models.Train" target="javax.persistence.Entity">
+      <point x="-174.75000000000006" y="-213.0" />
+      <point x="326.125" y="538.0" />
+      <point x="106.49679487179486" y="538.0" />
+      <point x="106.49679487179486" y="167.0" />
+      <point x="209.24358974358972" y="167.0" />
+      <point x="12.25" y="25.5" />
+    </edge>
+    <edge source="models.Stop" target="javax.persistence.Entity">
+      <point x="-91.50000000000006" y="-158.0" />
+      <point x="454.4967948717948" y="157.0" />
+      <point x="258.2435897435897" y="157.0" />
+      <point x="61.25" y="25.5" />
+    </edge>
+    <edge source="models.Seat" target="models.Train">
+      <point x="-55.75" y="-202.0" />
+      <point x="451.2435897435898" y="1014.0" />
+      <point x="384.375" y="1014.0" />
+      <point x="-116.5" y="213.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="313.66666666666583" y="1023.6666666666662" />
+  <SelectedNodes>
+    <node>models.Train</node>
+    <node>models.Stop</node>
+    <node>models.City</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
