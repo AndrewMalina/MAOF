@@ -1,0 +1,7 @@
+Model Inconsistencies:
+ 
+Diagram 1:  Context
+    has 2 unnamed junctions
+      Activity "Create tech. task" has no Input
+      Activity "Client" has no Output
+    has 8 unnamed arrows
