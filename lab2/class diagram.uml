@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>models.City</OriginalElement>
+  <nodes>
+    <node x="1001.7703488372093" y="613.0">service.TicketService</node>
+    <node x="959.3149224806199" y="1035.0">javafx.fxml.Initializable</node>
+    <node x="922.3149224806199" y="1322.0">sample.ControllerErrorInputFXML</node>
+    <node x="1457.5649224806198" y="202.0">sample.PersistenceManager</node>
+    <node x="58.25" y="824.0">service.AbstractTrainService</node>
+    <node x="345.3149224806199" y="149.0">models.Reservation</node>
+    <node x="0.0" y="1528.0">javafx.application.Application</node>
+    <node x="420.1755813953489" y="0.0">javax.persistence.Table</node>
+    <node x="1461.5649224806198" y="79.0">java.lang.Enum</node>
+    <node x="405.6155038759687" y="558.0">models.Train</node>
+    <node x="84.5" y="1695.0">sample.Ticket_Service</node>
+    <node x="309.3149224806199" y="947.0">sample.TrainTableRow</node>
+    <node x="751.1899224806199" y="171.0">models.City</node>
+    <node x="714.25" y="0.0">javax.persistence.Entity</node>
+    <node x="672.7405038759687" y="525.0">models.Ticket</node>
+    <node x="39.770348837209326" y="613.0">service.TrainService</node>
+    <node x="1552.3149224806198" y="0.0">java.io.Serializable</node>
+    <node x="1154.3149224806198" y="1322.0">sample.ControllerErrorFXML</node>
+    <node x="418.0649224806199" y="316.0">models.Seat</node>
+    <node x="597.9399224806199" y="1035.0">service.DBTicketService</node>
+    <node x="976.2703488372093" y="824.0">service.AbstractTicketService</node>
+    <node x="0.0" y="1024.0">service.DBTrainService</node>
+    <node x="704.3149224806199" y="1322.0">sample.ControllerWelcomeFXML</node>
+    <node x="333.3149224806199" y="1212.0">sample.ControllerSampleFXML</node>
+    <node x="1411.3149224806198" y="0.0">java.lang.Comparable</node>
+    <node x="393.22015503875946" y="780.0">models.Stop</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="service.DBTrainService" target="service.TrainService">
+      <point x="-47.75" y="-25.5" />
+      <point x="47.75" y="760.0" />
+      <point x="69.52034883720933" y="760.0" />
+      <point x="-29.75" y="14.5" />
+    </edge>
+    <edge source="models.Seat" target="javax.persistence.Table">
+      <point x="25.75" y="-69.5" />
+      <point x="546.8149224806199" y="291.0" />
+      <point x="541.8149224806199" y="291.0" />
+      <point x="541.8149224806199" y="119.0" />
+      <point x="467.4255813953489" y="119.0" />
+      <point x="6.75" y="14.5" />
+    </edge>
+    <edge source="models.City" target="javax.persistence.Table">
+      <point x="-36.5" y="-36.5" />
+      <point x="787.6899224806199" y="99.0" />
+      <point x="494.4255813953489" y="99.0" />
+      <point x="33.75" y="14.5" />
+    </edge>
+    <edge source="models.Train" target="javax.persistence.Table">
+      <point x="-77.25" y="-69.5" />
+      <point x="431.3655038759687" y="505.0" />
+      <point x="334.8149224806199" y="505.0" />
+      <point x="334.8149224806199" y="119.0" />
+      <point x="440.4255813953489" y="119.0" />
+      <point x="-20.25" y="14.5" />
+    </edge>
+    <edge source="service.DBTicketService" target="models.Reservation">
+      <point x="-53.25" y="-14.5" />
+      <point x="615.6899224806199" y="917.0" />
+      <point x="310.1899224806199" y="917.0" />
+      <point x="310.1899224806199" y="291.0" />
+      <point x="376.3149224806199" y="291.0" />
+      <point x="-62.0" y="58.5" />
+    </edge>
+    <edge source="sample.ControllerErrorInputFXML" target="javafx.fxml.Initializable">
+      <point x="-5.6843418860808015E-14" y="-25.5" />
+      <point x="1028.3149224806198" y="1192.0" />
+      <point x="1031.8149224806198" y="1192.0" />
+      <point x="14.5" y="14.5" />
+    </edge>
+    <edge source="models.Ticket" target="javax.persistence.Entity">
+      <point x="88.66666666666674" y="-102.5" />
+      <point x="894.4071705426354" y="505.0" />
+      <point x="958.3536821705427" y="505.0" />
+      <point x="958.3536821705427" y="59.0" />
+      <point x="775.0" y="59.0" />
+      <point x="20.25" y="14.5" />
+    </edge>
+    <edge source="models.Seat" target="models.Reservation">
+      <point x="-77.25" y="-69.5" />
+      <point x="443.8149224806199" y="291.0" />
+      <point x="438.3149224806199" y="291.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="models.Seat" target="javax.persistence.Entity">
+      <point x="77.25" y="-69.5" />
+      <point x="598.3149224806199" y="291.0" />
+      <point x="907.6899224806199" y="291.0" />
+      <point x="907.6899224806199" y="79.0" />
+      <point x="748.0" y="79.0" />
+      <point x="-6.75" y="14.5" />
+    </edge>
+    <edge source="service.DBTicketService" target="service.AbstractTicketService">
+      <point x="53.25" y="-14.5" />
+      <point x="722.1899224806199" y="927.0" />
+      <point x="1064.2703488372094" y="927.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="sample.ControllerSampleFXML" target="service.DBTrainService">
+      <point x="-140.39999999999998" y="-135.5" />
+      <point x="368.4149224806199" y="1192.0" />
+      <point x="95.5" y="1192.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="models.Stop" target="models.Train">
+      <point x="-23.25" y="-58.5" />
+      <point x="462.97015503875946" y="760.0" />
+      <point x="457.1155038759687" y="760.0" />
+      <point x="-51.5" y="69.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="39.75" y="-36.5" />
+      <point x="1580.8149224806198" y="54.0" />
+      <point x="1610.3149224806198" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="sample.ControllerSampleFXML" target="service.DBTicketService">
+      <point x="70.20000000000002" y="-135.5" />
+      <point x="579.0149224806199" y="1172.0" />
+      <point x="668.9399224806199" y="1172.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="service.DBTicketService" target="models.Ticket">
+      <point x="17.75" y="-14.5" />
+      <point x="686.6899224806199" y="917.0" />
+      <point x="805.7405038759687" y="917.0" />
+      <point x="0.0" y="102.5" />
+    </edge>
+    <edge source="models.Reservation" target="javax.persistence.Entity">
+      <point x="46.5" y="-58.5" />
+      <point x="484.8149224806199" y="129.0" />
+      <point x="721.0" y="129.0" />
+      <point x="-33.75" y="14.5" />
+    </edge>
+    <edge source="service.DBTicketService" target="models.Seat">
+      <point x="-17.75" y="-14.5" />
+      <point x="651.1899224806199" y="927.0" />
+      <point x="662.2405038759687" y="927.0" />
+      <point x="662.2405038759687" y="485.0" />
+      <point x="546.8149224806199" y="485.0" />
+      <point x="25.75" y="69.5" />
+    </edge>
+    <edge source="models.Train" target="javax.persistence.Entity">
+      <point x="77.25" y="-69.5" />
+      <point x="585.8655038759687" y="495.0" />
+      <point x="918.6899224806199" y="495.0" />
+      <point x="918.6899224806199" y="69.0" />
+      <point x="761.5" y="69.0" />
+      <point x="6.75" y="14.5" />
+    </edge>
+    <edge source="sample.TrainTableRow" target="models.Stop">
+      <point x="0.0" y="-102.5" />
+      <point x="442.3149224806199" y="927.0" />
+      <point x="486.22015503875946" y="927.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="service.DBTrainService" target="service.AbstractTrainService">
+      <point x="47.75" y="-25.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="sample.ControllerWelcomeFXML" target="javafx.fxml.Initializable">
+      <point x="0.0" y="-25.5" />
+      <point x="803.3149224806199" y="1192.0" />
+      <point x="1002.8149224806199" y="1192.0" />
+      <point x="-14.5" y="14.5" />
+    </edge>
+    <edge source="models.Train" target="models.Seat">
+      <point x="-25.75" y="-69.5" />
+      <point x="482.8655038759687" y="505.0" />
+      <point x="443.8149224806199" y="505.0" />
+      <point x="-77.25" y="69.5" />
+    </edge>
+    <edge source="models.Stop" target="javax.persistence.Table">
+      <point x="-69.75" y="-58.5" />
+      <point x="416.47015503875946" y="760.0" />
+      <point x="191.39534883720933" y="760.0" />
+      <point x="191.39534883720933" y="109.0" />
+      <point x="426.9255813953489" y="109.0" />
+      <point x="-33.75" y="14.5" />
+    </edge>
+    <edge source="service.AbstractTrainService" target="service.TrainService">
+      <point x="0.0" y="-14.5" />
+      <point x="143.25" y="760.0" />
+      <point x="129.02034883720933" y="760.0" />
+      <point x="29.75" y="14.5" />
+    </edge>
+    <edge source="models.Ticket" target="javax.persistence.Table">
+      <point x="0.0" y="-102.5" />
+      <point x="805.7405038759687" y="485.0" />
+      <point x="740.6899224806199" y="485.0" />
+      <point x="740.6899224806199" y="109.0" />
+      <point x="480.9255813953489" y="109.0" />
+      <point x="20.25" y="14.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="-39.75" y="-36.5" />
+      <point x="1501.3149224806198" y="54.0" />
+      <point x="1471.8149224806198" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="models.Reservation" target="models.Seat">
+      <point x="62.0" y="58.5" />
+      <point x="500.3149224806199" y="291.0" />
+      <point x="495.3149224806199" y="291.0" />
+      <point x="-25.75" y="-69.5" />
+    </edge>
+    <edge source="models.Train" target="models.Stop">
+      <point x="51.5" y="69.5" />
+      <point x="560.1155038759687" y="750.0" />
+      <point x="509.47015503875946" y="750.0" />
+      <point x="23.25" y="-58.5" />
+    </edge>
+    <edge source="models.City" target="javax.persistence.Entity">
+      <point x="36.5" y="-36.5" />
+      <point x="860.6899224806199" y="89.0" />
+      <point x="734.5" y="89.0" />
+      <point x="-20.25" y="14.5" />
+    </edge>
+    <edge source="sample.PersistenceManager" target="java.lang.Enum">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="sample.Ticket_Service" target="javafx.application.Application">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="sample.ControllerErrorFXML" target="javafx.fxml.Initializable">
+      <point x="0.0" y="-25.5" />
+      <point x="1260.3149224806198" y="1192.0" />
+      <point x="1060.8149224806198" y="1192.0" />
+      <point x="43.5" y="14.5" />
+    </edge>
+    <edge source="models.Ticket" target="models.Seat">
+      <point x="-88.66666666666674" y="-102.5" />
+      <point x="717.0738372093019" y="475.0" />
+      <point x="598.3149224806199" y="475.0" />
+      <point x="77.25" y="69.5" />
+    </edge>
+    <edge source="models.Reservation" target="javax.persistence.Table">
+      <point x="-46.5" y="-58.5" />
+      <point x="391.8149224806199" y="129.0" />
+      <point x="453.9255813953489" y="129.0" />
+      <point x="-6.75" y="14.5" />
+    </edge>
+    <edge source="sample.ControllerSampleFXML" target="sample.TrainTableRow">
+      <point x="-70.19999999999996" y="-135.5" />
+      <point x="438.61492248061995" y="1192.0" />
+      <point x="375.8149224806199" y="1192.0" />
+      <point x="-66.5" y="102.5" />
+    </edge>
+    <edge source="models.Stop" target="javax.persistence.Entity">
+      <point x="69.75" y="-58.5" />
+      <point x="555.9701550387595" y="760.0" />
+      <point x="991.2703488372093" y="760.0" />
+      <point x="991.2703488372093" y="49.0" />
+      <point x="788.5" y="49.0" />
+      <point x="33.75" y="14.5" />
+    </edge>
+    <edge source="models.Seat" target="models.Train">
+      <point x="-25.75" y="69.5" />
+      <point x="495.3149224806199" y="505.0" />
+      <point x="534.3655038759687" y="505.0" />
+      <point x="25.75" y="-69.5" />
+    </edge>
+    <edge source="service.AbstractTicketService" target="service.TicketService">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="sample.ControllerSampleFXML" target="javafx.fxml.Initializable">
+      <point x="140.39999999999998" y="-135.5" />
+      <point x="649.2149224806199" y="1182.0" />
+      <point x="973.8149224806199" y="1182.0" />
+      <point x="-43.5" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.627348643006263" x="432.7554076539102" y="469.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
